@@ -12,4 +12,4 @@ maxima = fechamento.max()
 minima = fechamento.min()
 atual = fechamento[-1]
 
-print(send_email('pjonas21@gmail.com', 'análise de cotação', ticker, maxima, minima, atual))
+print(send_email('email@gmail.com', 'análise de cotação', ticker, maxima, minima, atual))
